@@ -1,0 +1,18 @@
+colorscheme codedark
+syntax enable
+set tabstop=4
+set softtabstop=4
+set autoindent
+" set smartindent
+set number
+set cursorline
+set incsearch
+set hlsearch
+nnoremap <leader><cpace> :nohlsearch<CR>
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
